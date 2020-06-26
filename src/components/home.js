@@ -1,7 +1,7 @@
 import React, { Component, useEffect } from 'react';
 import { connect } from 'react-redux';
 import NewsFeed from './news-feed';
-import Card from './card';
+import MyChart from './graph';
 import { render } from 'react-dom';
 
 class Home extends Component {
@@ -37,6 +37,7 @@ class Home extends Component {
             </a>
           </div>
         )}
+        <MyChart />
       </>
     );
   }

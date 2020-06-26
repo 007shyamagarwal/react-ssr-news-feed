@@ -1,5 +1,4 @@
 export const increaseUpvote = (postId) => {
-  console.log('postId', postId);
   return {
     type: 'INCREASE_UPVOTE',
     postId,
