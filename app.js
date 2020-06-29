@@ -28,11 +28,11 @@ let initialState = {
 // server rendered home page
 app.get('/', (req, res) => {
   res.send({
-    hello: 'You stumbled on wrong page :( will try to access /page/:id urls',
+    hello: 'You stumbled on wrong page :( please try to access /page/:id urls',
   });
 });
 app.get('/page/:id', (req, res) => {
-  const store = configureStore(initialState);
+  const store = configureStore(initialState, true, req.params.id);
   store.dispatch(fetchPosts(req.params.id)).then((data) => {
     let content = renderToString(
       <Provider store={store}>
@@ -44,11 +44,4 @@ app.get('/page/:id', (req, res) => {
     res.setHeader('Cache-Control', 'assets, max-age=604800');
     res.send(response);
   });
-});
-
-// Pure client side rendered page
-app.get('/client', (req, res) => {
-  let response = template('Client Side Rendered page');
-  res.setHeader('Cache-Control', 'assets, max-age=604800');
-  res.send(response);
 });

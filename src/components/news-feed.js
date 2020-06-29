@@ -68,12 +68,19 @@ const NewsFeed = (props) => {
           </tr>
         </thead>
         <tbody>
-          {hits.map((post) => {
+          {hits.map((post, i) => {
+            console.log('hye', post);
             return (
-              <tr key={post.objectID}>
+              <tr
+                key={post.objectID}
+                className={i % 2 === 0 ? 'even-row' : 'odd-row'}
+              >
                 {tablekeys.map((key) => {
                   return (
-                    <td className={`${key.class}`} key={key + post.objectID}>
+                    <td
+                      className={`${key.class}`}
+                      key={key.value + post.objectID}
+                    >
                       {renderRow(
                         key,
                         post,

@@ -16,7 +16,7 @@ class Home extends Component {
   }
   render() {
     const { pageId = 0 } = this.props;
-    const previous = 0 ? 0 : +pageId - 1;
+    const previous = 1 ? 1 : +pageId - 1;
     const next = +pageId + 1;
     return (
       <>
@@ -37,7 +37,9 @@ class Home extends Component {
             </a>
           </div>
         )}
-        <MyChart />
+        <div style={{ border: '1px solid orangered' }}>
+          <MyChart />
+        </div>
       </>
     );
   }

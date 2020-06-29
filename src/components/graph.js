@@ -25,7 +25,7 @@ const MyChart = (props) => {
             title: 'ID',
           },
           vAxis: {
-            title: 'Upvotes',
+            title: 'Votes',
           },
         }}
         rootProps={{ 'data-testid': '1' }}
