@@ -1,6 +1,6 @@
 import { RECEIVE_POSTS, INCREASE_UPVOTE, HIDE_POST } from './actions';
 
-function apps(state = { isFetching: false, posts: [] }, action) {
+const reducers = (state = { isFetching: false, posts: [] }, action) => {
   switch (action.type) {
     case RECEIVE_POSTS: {
       return {
@@ -32,6 +32,6 @@ function apps(state = { isFetching: false, posts: [] }, action) {
     default:
       return state;
   }
-}
+};
 
-export default apps;
+export default reducers;

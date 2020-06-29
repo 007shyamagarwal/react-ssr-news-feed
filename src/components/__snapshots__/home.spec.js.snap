@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Home page with content 1`] = `
+Array [
+  <table
+    bordered={true}
+    striped={true}
+  >
+    <thead
+      className="table-heading"
+    >
+      <tr>
+        <th
+          className=" comments"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Comments
+        </th>
+        <th
+          className=" votes"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Vote Count
+        </th>
+        <th
+          className=" upvote"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Upvote
+        </th>
+        <th
+          className=" details"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          News Details
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+  <div
+    className="btton-container"
+  >
+    <a
+      className="organge"
+      href="http://localhost/page/1"
+    >
+      Previous
+    </a>
+    <a
+      className="organge"
+      href="http://localhost/page/1"
+    >
+      Next
+    </a>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid orangered",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "300px",
+          "marginTop": "30px",
+          "width": "100%",
+        }
+      }
+    >
+      <div>
+        Loading Chart
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Home Home page with empty content 1`] = `
+Array [
+  <table
+    bordered={true}
+    striped={true}
+  >
+    <thead
+      className="table-heading"
+    >
+      <tr>
+        <th
+          className=" comments"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Comments
+        </th>
+        <th
+          className=" votes"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Vote Count
+        </th>
+        <th
+          className=" upvote"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          Upvote
+        </th>
+        <th
+          className=" details"
+          style={
+            Object {
+              "textTransform": "capitalize",
+            }
+          }
+        >
+          News Details
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+  <div
+    className="btton-container"
+  >
+    <a
+      className="organge"
+      href="http://localhost/page/1"
+    >
+      Previous
+    </a>
+    <a
+      className="organge"
+      href="http://localhost/page/1"
+    >
+      Next
+    </a>
+  </div>,
+  <div
+    style={
+      Object {
+        "border": "1px solid orangered",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "300px",
+          "marginTop": "30px",
+          "width": "100%",
+        }
+      }
+    >
+      <div>
+        Loading Chart
+      </div>
+    </div>
+  </div>,
+]
+`;

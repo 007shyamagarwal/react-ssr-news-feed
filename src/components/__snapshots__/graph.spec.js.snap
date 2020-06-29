@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyChart MyChart page with content 1`] = `
+<div
+  style={
+    Object {
+      "height": "300px",
+      "marginTop": "30px",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    Loading Chart
+  </div>
+</div>
+`;
+
+exports[`MyChart MyChart page with empty content 1`] = `
+<div
+  style={
+    Object {
+      "height": "300px",
+      "marginTop": "30px",
+      "width": "100%",
+    }
+  }
+>
+  <div>
+    Loading Chart
+  </div>
+</div>
+`;

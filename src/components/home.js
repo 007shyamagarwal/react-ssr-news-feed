@@ -2,7 +2,6 @@ import React, { Component, useEffect } from 'react';
 import { connect } from 'react-redux';
 import NewsFeed from './news-feed';
 import MyChart from './graph';
-import { render } from 'react-dom';
 
 class Home extends Component {
   constructor(props) {

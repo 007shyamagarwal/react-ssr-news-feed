@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import { Chart } from 'react-google-charts';
 
 const MyChart = (props) => {
